@@ -5,12 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Olivier Desplan | Personal Website</title>
   <link rel="stylesheet" href="style.css?v=2" />
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .page-wrapper {
+      width: min(1200px, 100%);
+    }
+  </style>
 </head>
 <body>
-  <div class="background-orb orb-one"></div>
-  <div class="background-orb orb-two"></div>
+  <div class="page-wrapper">
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
 
-  <header class="site-header">
+    <header class="site-header">
     <nav class="nav">
       <a href="#" class="logo">Olivier Desplan</a>
       <div class="nav-links">
@@ -94,5 +106,6 @@
   <footer class="footer">
     <p>© 2026 Olivier Desplan. Built with HTML & CSS.</p>
   </footer>
+  </div>
 </body>
 </html>
