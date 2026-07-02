@@ -1,66 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Olivier Desplan</title>
-<link rel="stylesheet" href="style.css?v=20260702">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Olivier Desplan | Systems, Finance & Technology</title>
+  <meta name="description" content="Personal portfolio of Olivier Desplan — systems integration, finance, accounting and technology." />
+  <link rel="stylesheet" href="style.css?v=20260702-premium1" />
 </head>
 <body>
+  <div class="noise"></div>
+  <div class="gradient-orb orb-one"></div>
+  <div class="gradient-orb orb-two"></div>
+  <div class="gradient-orb orb-three"></div>
 
-<header class="site-header">
-<nav class="nav">
-<a class="logo" href="#">Olivier Desplan</a>
-<div class="nav-links">
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</div>
-</nav>
-</header>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#" class="logo">
+        <span class="logo-mark">OD</span>
+        <span>Olivier Desplan</span>
+      </a>
 
-<main>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
 
-<section class="hero">
-<p class="eyebrow">Systems Integration • Finance • Technology</p>
-<h1>Building bridges between technology, finance and business transformation.</h1>
-<p class="hero-text">
-International Systems Integration Engineer with experience across Australia, the UAE and France, expanding into accounting, finance and entrepreneurship.
-</p>
-<div class="hero-actions">
-<a class="button primary" href="#contact">Get in touch</a>
-<a class="button secondary" href="#projects">Projects</a>
-</div>
-</section>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">
+        <span class="toggle-icon">☾</span>
+      </button>
+    </nav>
+  </header>
 
-<section id="about" class="section">
-<h2>About</h2>
-<p>I enjoy solving complex technical problems while continuously learning about finance, accounting and business transformation.</p>
-</section>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Systems Integration • Finance • Technology</p>
 
-<section id="skills" class="section">
-<h2>Skills</h2>
-<div class="cards">
-<div class="card"><h3>Systems Integration</h3><p>ATM, deployment, validation and troubleshooting.</p></div>
-<div class="card"><h3>Linux</h3><p>Red Hat, networking, scripting and infrastructure.</p></div>
-<div class="card"><h3>Finance</h3><p>Accounting, valuation and capital markets.</p></div>
-</div>
-</section>
+      <h1>
+        I build reliable systems and explore how technology, finance and business connect.
+      </h1>
 
-<section id="projects" class="section">
-<h2>Projects</h2>
-<p>More coming soon...</p>
-</section>
+      <p class="hero-text">
+        International Systems Integration Engineer with experience across Australia, the UAE and France,
+        now developing a broader profile across accounting, finance, advisory and entrepreneurship.
+      </p>
 
-<section id="contact" class="section">
-<h2>Contact</h2>
-<p>LinkedIn and CV coming soon.</p>
-</section>
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">Explore my work</a>
+        <a class="button secondary" href="#contact">Get in touch</a>
+      </div>
 
-</main>
+      <div class="hero-stats" aria-label="Professional highlights">
+        <div>
+          <strong>5+ years</strong>
+          <span>Systems experience</span>
+        </div>
+        <div>
+          <strong>3 regions</strong>
+          <span>Australia • UAE • France</span>
+        </div>
+        <div>
+          <strong>Hybrid profile</strong>
+          <span>Engineering • Finance</span>
+        </div>
+      </div>
+    </section>
 
-<footer class="footer">© 2026 Olivier Desplan</footer>
+    <section id="about" class="section split-section reveal">
+      <div>
+        <p class="section-label">About</p>
+        <h2>A technical profile with a business mindset.</h2>
+      </div>
+      <div class="section-copy">
+        <p>
+          My background is rooted in complex systems integration, deployment, validation and troubleshooting
+          within Air Traffic Management environments.
+        </p>
+        <p>
+          I am now expanding that foundation into accounting, financial analysis, capital markets and business
+          transformation — with the goal of connecting technical depth with strategic thinking.
+        </p>
+      </div>
+    </section>
 
+    <section id="journey" class="section reveal">
+      <p class="section-label">Journey</p>
+      <h2>International experience, continuous learning.</h2>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <p class="timeline-meta">Australia</p>
+            <h3>Systems Integration</h3>
+            <p>Experience on international ATM modernization programs, working across technical teams and operational environments.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <p class="timeline-meta">UAE</p>
+            <h3>Deployment & Validation</h3>
+            <p>Contributed to complex deployment and validation activities in multicultural, high-reliability environments.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div>
+            <p class="timeline-meta">France & Guadeloupe</p>
+            <h3>Accounting, Finance & Advisory</h3>
+            <p>Developing practical experience in accounting, audit support, financial statements and business transformation.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <p class="section-label">Projects</p>
+      <h2>Areas I am building around.</h2>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <span class="project-number">01</span>
+          <h3>Linux Labs</h3>
+          <p>Notes and experiments around Red Hat, SSH, networking, services, troubleshooting and system administration.</p>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">02</span>
+          <h3>Finance Models</h3>
+          <p>DCF, valuation concepts, accounting ratios and investment banking learning resources.</p>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">03</span>
+          <h3>Systems Engineering</h3>
+          <p>Integration, validation, operational thinking and structured problem-solving applied to complex systems.</p>
+        </article>
+
+        <article class="project-card">
+          <span class="project-number">04</span>
+          <h3>Personal Website</h3>
+          <p>This site itself: a long-term learning project to practice HTML, CSS, JavaScript, Git and modern web development.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact reveal">
+      <p class="section-label">Contact</p>
+      <h2>Let’s connect.</h2>
+      <p>
+        Add your LinkedIn, email or CV link here. This section can later become a dedicated contact page.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="button secondary" href="#">Download CV soon</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Olivier Desplan. Built with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="script.js?v=20260702-premium1"></script>
 </body>
 </html>
