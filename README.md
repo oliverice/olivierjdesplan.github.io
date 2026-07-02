@@ -13,3 +13,4 @@ A simple one-page personal website built with HTML and CSS.
 
 - `index.html` — website content
 - `style.css` — website design
+- The website is https://oliverice.github.io
